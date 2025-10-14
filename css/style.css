@@ -49,6 +49,6 @@ svg {
   font-size: large;
     font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weights;
   font-style: normal;
 }
