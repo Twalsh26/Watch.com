@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="js/Script.js">
+
   </head>
   <body>
     
@@ -31,17 +31,18 @@
 
    
       <div class="col-12 col-md-8">
-                <video class="d-flex mx-auto" id="myVideo" width="1000px" controls> 
-                <source src="img/NBAgot#.mp4" type="video/mp4"> 
+                <video class="d-flex mx-auto" id="myVideo" width="1000px" controls id="DisplayV"> 
+                <source id="NBAv" src="img/Mrbeast.mp4" type="video/mp4" > 
                 Your browser does not support the video tag. 
                 </video>
             </div>
 
    <div class="col-12 col-md-4">
-     <img class="svg-container"  src="img/Screenshot 2025-10-10 090137.png" alt=""> 
-    
+    <div id="NBA">
+     <img class="svg-container" id="NBAv" src="img/Screenshot 2025-10-10 090137.png" alt=""> 
+    </div>
 
-     <img class="svg-container" src="img/Screenshot 2025-10-10 090356.png" alt=""> 
+     <img class="svg-container"  src="img/Screenshot 2025-10-10 090356.png" alt=""> 
 
      <img class="svg-container" src="img/Screenshot 2025-10-10 090725.png" alt=""> 
 
@@ -69,5 +70,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/Script.js"></script>
   </body>
 </html>
